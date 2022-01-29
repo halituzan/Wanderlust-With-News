@@ -4,16 +4,16 @@ const submitBtn = document.getElementById('button');
 const container = document.querySelector(".container")
 
 // Foursquare API Info
-const clientId = '1FYL3UDSA4FEATQF0GZJJON1TCPWVYCK1QISOZPOYZG1IBG5';
-const clientSecret = '4HULZXBJV0H1P3RKYBRH5IPFQRP44FKGDWUILLYTML4QXA4A';
+const clientId = 'FOURSQUARE_CLIENT_ID';
+const clientSecret = 'FOURSQUARE_CLIENT_SECRET';
 const url = 'https://api.foursquare.com/v2/venues/explore?near='
 //// WEATHER API Info
-const weatherApi = '09eb77c925fcadfc57d718445ecec656'
+const weatherApi = 'WEATHER_API'
 const weatherUrl = 'http://api.weatherstack.com/current?access_key='
 
 //// news api info
 
-const newsKey = "44af7446604c499795c5376f9c702ade";
+const newsKey = "NEWS_KEY";
 const newsApi = "https://newsapi.org/v2/everything?q="
 
 
